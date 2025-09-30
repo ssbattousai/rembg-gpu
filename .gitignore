@@ -1,0 +1,14 @@
+# Ignore Python cache, logs, temp files
+__pycache__/
+*.log
+*.tmp
+
+# Ignore large media/test data
+*.jpg
+*.png
+*.jpeg
+*.mp4
+*.avi
+
+# But keep small demo/test if you want
+#!test.jpg
